@@ -1,0 +1,20 @@
+[
+  {
+    "outputFileName": "wwwroot/js/data.min.js",
+    "inputFiles": [],
+    "minify": {
+      "enabled": true,
+      "renameLocals": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/data.min.css",
+    "inputFiles": [
+      "node_modules/bootstrap/dist/**/*.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": false
+    }
+  }
+]

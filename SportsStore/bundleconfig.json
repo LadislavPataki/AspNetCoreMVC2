@@ -10,7 +10,8 @@
   {
     "outputFileName": "wwwroot/css/data.min.css",
     "inputFiles": [
-      "node_modules/bootstrap/dist/**/*.css"
+      "node_modules/bootstrap/dist/**/!(*.min).css"
+
     ],
     "minify": {
       "enabled": true,

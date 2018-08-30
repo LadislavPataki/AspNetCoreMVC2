@@ -11,11 +11,12 @@
     "outputFileName": "wwwroot/css/data.min.css",
     "inputFiles": [
       "node_modules/bootstrap/dist/**/!(*.min).css"
-
+      //"node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"
     ],
     "minify": {
       "enabled": true,
-      "renameLocals": false
+      "renameLocals": false,
+      "adjustRelativePaths": false
     }
   }
 ]

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SportsStore.Models;
-using System.Linq;
 using SportsStore.Models.ViewModels;
+using System.Linq;
 
 namespace SportsStore.Controllers
 {
@@ -26,8 +26,8 @@ namespace SportsStore.Controllers
             {
                 CurrentPage = productPage,
                 ItemsPerPage = PageSize,
-                TotalItems = category == null 
-                    ? _repository.Products.Count() 
+                TotalItems = category == null
+                    ? _repository.Products.Count()
                     : _repository.Products.Count(x => x.Category == category)
             },
             CurrentCategory = category

@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace SportsStore.Models
 {
-    class FakeProductRepository : IProductRepository
+    class FakeProductRepository /*: IProductRepository*/
     {
         public IQueryable<Product> Products => new List<Product>
         {

@@ -1,7 +1,11 @@
 [
   {
     "outputFileName": "wwwroot/js/data.min.js",
-    "inputFiles": [],
+    "inputFiles": [
+      "node_modules/jquery/dist/jquery.min.js",
+      "node_modules/jquery-validation/dist/jquery.validate.min.js",
+      "node_modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+    ],
     "minify": {
       "enabled": true,
       "renameLocals": false

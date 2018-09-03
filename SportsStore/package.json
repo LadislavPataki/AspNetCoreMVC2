@@ -13,6 +13,9 @@
     "merge-stream": "^1.0.1"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.3.1"
+    "@fortawesome/fontawesome-free": "^5.3.1",
+    "jquery": "^3.3.1",
+    "jquery-validation": "^1.17.0",
+    "jquery-validation-unobtrusive": "^3.2.10"
   }
 }
